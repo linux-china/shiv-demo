@@ -44,9 +44,9 @@ $ shiv --python "/usr/bin/env python3.13" -o hello.pyz --inline-script hello.py
 
 ### Run the bundled script
 
-Run bundled script with uv:  `uv run hello.pyz`
+Run bundled script with uv:  `uv run hello.pyz` or `uv run --python 3.13 hello.pyz`
 
-Why run script with uv? Because uv can detect shebang and run the script with the correct python version.
+Why run script with uv? Because uv can run the script with assigned python version.
 
 # References
 
