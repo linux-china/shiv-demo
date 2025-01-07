@@ -7,7 +7,7 @@ A demo to use shiv + PEP 723 Inline script metadata + uv together.
 
 ### Build shiv with inline script metadata support
 
-* Checkout code: `git clone -b my-branch https://github.com/clayrosenthal/shiv.git`
+* Checkout code: `git clone -b inline-script https://github.com/clayrosenthal/shiv.git`
 * Build: `cd shiv; uv build; cd dist; uv tool install ./shiv-1.1.0-py2.py3-none-any.whl`
 * Test: `shiv --help`
 
